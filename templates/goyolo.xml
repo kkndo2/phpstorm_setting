@@ -1,0 +1,13 @@
+<templateSet group="goyolo">
+  <template name="useRoleType" value="use App\Code\User\Role\Type as RoleType;" shortcut="ENTER" description="use 사용자 역할 코드" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="logic" value="\App\logic($Logic$::class, [&#10;    &#10;]);" shortcut="ENTER" description="로직실행 구문" toReformat="false" toShortenFQNames="true">
+    <variable name="Logic" expression="" defaultValue="Logic" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
