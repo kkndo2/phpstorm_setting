@@ -2,6 +2,7 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping pattern="a" type="Native" />
+      <mapping ext="dat" type="Native" />
       <mapping pattern="Vagrantfile" type="YAML" />
     </extensionMap>
   </component>
